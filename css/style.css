@@ -1,9 +1,9 @@
 /* Jumbotron  */
 .jumbotron {
-    background-image: url(../images/IMG_0279.JPG);
+    background-image: url(../images/IMG_0616.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(70vh - 25px);
+    height: calc(70vh - 10px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@
   
   /* Jumbotron copy */
   .jumboCopy {
-    width: 70%;
+    width: 80%;
     min-width: 500px;
     max-width: 500px;
     color: rgb(228, 214, 16);
@@ -21,9 +21,73 @@
     text-align: center;
   }
 
-  h2 {
-    font-size: 1.5rem;
+
+  h1 {
+    font-size: 5rem;
     font-family: 'Anton', sans-serif;
-    letter-spacing: 4px;
-    word-spacing: 4px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
   }
+
+  h2 {
+    margin: 0 0 0 0;
+    font: 130% verdana, "Trebuchet MS", arial, tahoma, sans-serif;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #dac71e;
+    background: inherit;
+  }
+
+
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(209, 190, 19);
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+
+  
+
+  
+  /* Navigation links */
+  .customNav a {
+    color: rgb(146, 185, 36) !important;
+    font-style: bold;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+/* Footer */
+.emailContain {
+  background: url(../images/emailBG.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+/* Footer form */
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
